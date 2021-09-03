@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import Edit from './pages/edit/edit';
-import './styles/main.scss';
+import './styles/main.sass';
 
 function App() {
   return (
