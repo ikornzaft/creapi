@@ -1,7 +1,17 @@
-import './App.css';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+
+import Edit from './pages/edit/edit';
+import './styles/main.scss';
 
 function App() {
-  return <div>EDIT PAGE</div>;
+  return (
+    <div>
+      <Switch>
+        <Route path="/edit/:id" component={Edit} />
+      </Switch>
+    </div>
+  );
 }
 
 export default App;
