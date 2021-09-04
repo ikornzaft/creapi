@@ -1,7 +1,6 @@
 import React from 'react';
 import { Droppable } from 'react-beautiful-dnd';
-
-import { GenericEditionElement } from '../../basic/GenericEditionElement/GenericEditionElement';
+import { GenericEditionElement } from 'Components/basic/GenericEditionElement/GenericEditionElement';
 
 export const ComponentsPalette = () => {
   return (
