@@ -14,7 +14,7 @@ module.exports = {
   },
   plugins: ['prettier', 'import'],
   rules: {
-    'no-console': 'warn',
+    'no-console': 1,
     'prettier/prettier': [
       'error',
       {
