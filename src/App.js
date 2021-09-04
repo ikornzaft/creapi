@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Edit from './pages/edit/edit';
+import { Edit } from './components/';
 import './styles/main.sass';
 
 function App() {
