@@ -1,8 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-
-import { Edit } from './components/';
-import './styles/main.sass';
+import { Edit } from 'Components';
+import 'Styles/main.sass';
 
 function App() {
   return (
