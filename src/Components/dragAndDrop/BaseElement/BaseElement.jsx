@@ -1,7 +1,7 @@
 import React from 'react';
 import { Draggable } from 'react-beautiful-dnd';
 
-export const GenericEditionElement = ({ elementId = '1', index = 0 }) => {
+export const BaseElement = ({ elementId, label, index = 0 }) => {
   return (
     // random draggableId and index just for testing porpouses
     <Draggable draggableId={elementId} index={index}>
@@ -12,7 +12,7 @@ export const GenericEditionElement = ({ elementId = '1', index = 0 }) => {
           {...provided.dragHandleProps}
           ref={provided.innerRef}
         >
-          Input
+          {label}
         </div>
       )}
     </Draggable>

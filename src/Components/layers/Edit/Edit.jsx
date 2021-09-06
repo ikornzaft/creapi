@@ -1,7 +1,8 @@
 import React from 'react';
 import { DragDropContext } from 'react-beautiful-dnd';
-import { ComponentsPalette } from 'Components/layers/ComponentsPalette/ComponentsPalette';
 import { Canvas } from 'Components/layers/Canvas/Canvas';
+
+import { ElementsToolbox } from '../ElementsToolbox/ElementsToolbox';
 
 export const Edit = () => {
   const handleDragEnd = (result) => {
@@ -13,7 +14,7 @@ export const Edit = () => {
   return (
     <DragDropContext onDragEnd={handleDragEnd}>
       <div className="edit">
-        <ComponentsPalette />
+        <ElementsToolbox />
         <Canvas />
       </div>
     </DragDropContext>
